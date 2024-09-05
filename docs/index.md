@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "TODO: Title"
-  text: "TODO: Subtitle"
-  tagline: "TODO: Tagline"
+  name: "Jennifer Kim's"
+  text: "Portfolio"
+  tagline: "Here to have fun :)"
   actions:
     - theme: brand
       text: Template Repository
