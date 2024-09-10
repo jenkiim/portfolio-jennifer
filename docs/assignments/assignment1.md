@@ -16,6 +16,8 @@ I believe that social media these days has become an echo chamber, which makes i
 - Education: Didn’t go to college
 - Job: construction worker
 
+I chose this interviewee, because he is very different from me. Although he is similar in age, he is in a different stage of life being that he is married and has a child. He has a job and has to support his family, so his priorities in life are probably going to vary from me (I don't have to a support a family and am a full time student). He also didn't go to college, while I'm a college student. I would expect this to have a big affect on how he uses social media and the difference in how we both use social media. Lastly, I have a hunch that applies to many political issues, so I wanted to interview someone with a political perspective that's different from mine. I felt this was important to include in my interviews because I believe that political ideologies in America have become increasingly polarized.
+
 
 ### Interviewee 2
 - Age: 14 years old
@@ -24,7 +26,8 @@ I believe that social media these days has become an echo chamber, which makes i
 - Education: Freshman in High School
 - Job: Student
 - Tail of Gen Z
-- In debate
+
+I chose this interviewee mainly because of their age. Especially because social media is becoming more prevalent, I wanted to gain the perspective of someone younger than me who's generation has more widspread use of social media. I believe this would affect their usage and opinons of social media greatly. Another reason why is because they have a differing political perspective from my first interviewee. I believe that the two sides of the political spectrum have very different opinons about social media, so I wanted to capture this in my interviews.
 
 ## Conversation Starters
 - What are some hobbies you have?
@@ -42,6 +45,7 @@ I believe that social media these days has become an echo chamber, which makes i
 - What kind of controversial topics are you interested in or have a strong opinion in?
 
 ## Interview Plan
+I plan to write notes as the interview takes place and look up often to observe that kinds of expression my interviewee makes and what behaviors they exhibit when I ask my questions. To help with this, I also plan to record my interviews and add more to my notes later.
 
 ## Write Up for Interviewee 1
 - **What are some hobbies you have?**
@@ -64,7 +68,7 @@ I believe that social media these days has become an echo chamber, which makes i
 - **Have you heard the opinions of the other side of the gun rights issue?**
 - He says he has heard them and the only argument they have is the mass shooting argument and believes that there are a lot of other use cases for guns like hunting with his brother and is having fun
 - **You said that “the only argument they have is…”. Is this really the only argument you’ve heard and where did you hear this?**
-- He heard this from multiple Instagram posts and a lot of the time sees it from celebrities posting about how they are praying for school shooting victims and then also posting about wanting more fun regulations alongside them.
+- He heard this from multiple Instagram posts and a lot of the time sees it from celebrities posting about how they are praying for school shooting victims and then also posting about wanting more gun regulations alongside them.
 - **Have you heard any other arguments or even played the devil’s advocate yourself?**
 - No, he hasn’t and has thought about the other side, but “I’ve thought about the other side, but that’s the only argument I can think of. I’ve never heard them say anything else. They have nothing else to use against us”
 - **Going back to reposting things on social media, do you remember any posts that you have reposted in the past?**
@@ -85,18 +89,14 @@ I believe that social media these days has become an echo chamber, which makes i
 - The left side is calling the right side criminals for having guns and calling Trump a criminal, while the right side isn’t calling people criminals. Says that he can see how he was a little short sighted. “Maybe you’re right, I don’t know their point of view, but I don’t know what other arguments they even have for me to see”
 - **How accurate do you think is the information that you see on Instagram?**
 - Because everyone is reposting the same thing, even celebrities who probably have people to manage their social media and do fact checking, he trusts that it’s correct and nobody's saying that it’s incorrect.
-- **Twitter has reader notes. Should there be something similar for Instagram?**
-- If there is fact checking, the fact checking needs to be non biased, because news can oftentimes be biased.
 -------
 
 ## Write Up for Interviewee 2
 - **What are some hobbies that you have?**
 - Fencer, reading a lot (mostly fantasy books), shopping and browning clothes, exercising (lifting weights), taking walks with dogs, talking to her friends, hanging out with friends, playing games (mobile and computer) valorent, overwatch, makeup
 - **When you’re on your phone, what are you usually doing?**
-- Texting someone or doing some sort of tik tok or youtube or instagram, uses it for todo lists and reminders a lot, duolingo, and music
-- **How much time do you spend on your phone? How does it make you feel?**
-- Because of school and reading, she hasn’t been on her phone as much, but in the summer, she used it a LOT, and it makes her feel guilty but whatever.
-- **How do you use specific social medias?**
+- Texting someone or doing some sort of tik tok or youtube or instagram, uses it for todo lists and reminders a lot, duolingo, and music.
+- **Can you tell me how you use specific social medias on a daily basis?**
 - She uses tik tok for entertainment and for instagram, she uses it to catch up with people and connect with someone without being pretty forward like using instagram instead of phone numbers and asking for snaps. Youtube used for informational like how to. She also uses Tik Tok to explain things to her.
 - **What do you usually search up on Tik Tok? What are some examples?**
 - She searched up jewlery gifts for mom, alexander hamilton, winx 2024, how to ace ap hug, church outfits, nickocado avocado now, who is Saddam Hussein and learned about who he is. Tik Tok is good for quick information and Google and Youtube is a lot slower.
@@ -133,9 +133,20 @@ I believe that social media these days has become an echo chamber, which makes i
 - **You mentioned that being on the left is a trend. What are your thoughts on that?**
 - She thinks it’s definitely a trend to be on the left. She talks about how if someone posts something homophobic, they get slammed in the comments. Especially on Tik Tok, conservative people will get bashed like crazy. She thinks that the conservatives get it the worst. She thinks it’s herd mentality and thinks that’s what humans are like. If social media didn’t exist, herd mentality would still exist. If her friends said something, she would parrot it. “People are afraid to have their own opinion and get judged for it.” People are often friends with people who have the same values. Social media has two sides, she follows trends and she also uses it to look at all perspectives to get her own opinions. She thinks both sides exist and thinks maturity is important in how people use social media. She thinks that it’s not the point to compare if Israeli people or Palenstinians have it worse and thinks the government is the issue. She thinks people are scared to speak up, which is the larger issue.
 - **There have been discussions about creating social media platforms tailored to specific political viewpoints, like a conservative-focused app. What are your thoughts on this idea?**
-- She thinks the point of social media is finding new people and connecting with them. Having a conservative only platform (if it was based on race or sexuality then it would be discriminatory) could be compared to Reddit threads, but going out of the way to create an app to just confirm their values is weird. She thinks it’s weird to bash the left and have an app to just validate their views and just reply “Yes. I agree.” etc. She thinks people shouldn’t be saying harmful things and if that’s their view, they should vote based on their values in private.
+- She thinks the point of social media is finding new people and connecting with them. Having a conservative only platform (if it was based on race or sexuality then it would be discriminatory) could be compared to Reddit threads, but going out of the way to create an app to just confirm their values is weird. She thinks it’s weird to bash the left and have an app to just validate their views and just reply “Yes. I agree.” etc. She thinks people shouldn’t be saying harmful things and if that’s their view, they should vote based on their values in private. She thinks that having extreme opinions is bad, but that usually the extreme opinions go viral, so it's very easy to only hear the opinions from people with extreme views. She says that this annoys her a lot, because people either make fun of these opinons or she doesn't think these extreme opinons are well thought out and are used to gain popularity and virality.
+
+## Summary for Interview 1
+Interviewee 1 mostly uses social media to keep up with friends and family. He also does post political topics on social media like information on the upcoming elections. When asked about whether he fact checks the information he uploads on social media, he stated that "so many people I know were reposting it, so I assumed it was true," which shows the power of trust in the people closest to him. This may cause issues, because this demonstrates how people associate their trust in the accuracy with popularity in opinions in the people around them.
+
+It was surprising to hear that he only has heard of one primary argument for stricter gun laws and even stated that "I’ve thought about the other side, but that’s the only argument I can think of. I’ve never heard them say anything else." This shows how it's easy to only hear the most vocal of the other side of issues, which is often the argument that is the most viral and popular on social media, making it hard for diverse opinions and arguments to be heard. Furthermore, the interviewee contradicted himself by arguing that the left leaning sides aren’t seeing the right leaning side’s view," but was quick to dismiss the left side's point of view earlier on gun rights laws. He was also visibly passionate when talking about people not listening to his side of the argument, highlighting the issues of feeling heard on social media, especially when their opinions are not able to go viral. When this contradiction was pointed out, the interviewee conceded that "[he doesn’t] know their point of view, but [he doesn't] know what other arguments they even have for [him] to see," again emphasizing the fact that he hasn't had the chance to explore the multitude of arguments opinions of the opposite side.
+
+## Summary for Interview 2
 
 
 
-
-## Write Up
+## Design Opportunities
+1. Balancing popularity of comments/opinions while not promoting extreme views.
+- 
+2. How to keep people engaged with perspectives that aren't affirming their own.
+3. Verify information in a non-biased way.
+4. Interacting with friends and families when discussing political and controversial topics while also displaying diverse opinions.
