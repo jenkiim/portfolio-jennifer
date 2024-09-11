@@ -44,9 +44,6 @@ I chose this interviewee mainly because of their age. Especially because social 
     - How do you feel about keeping up with current events? Can you share your perspective on why it might or might not be important?
 - What kind of controversial topics are you interested in or have a strong opinion in?
 
-## Interview Plan
-I plan to write notes as the interview takes place and look up often to observe that kinds of expression my interviewee makes and what behaviors they exhibit when I ask my questions. To help with this, I also plan to record my interviews.
-
 ## Write Up for Interviewee 1
 - **What are some hobbies you have?**
 - He likes to fish, working out, build things with his hands, and recently got into hunting with his older brother.
