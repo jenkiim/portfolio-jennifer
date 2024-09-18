@@ -14,7 +14,7 @@ layout: doc
 
 
 ## Scrapbook of Comparables
-![Screenshot of Youtube Music samples tab (a preview of music)](../assets/images/samples.PNG){:width="300"}
+![Screenshot of Youtube Music samples tab (a preview of music)](../assets/images/samples.png){:width="300"}
 
 Youtube music has a samples tab, which shows the user quick previews of new music. We can have a similar tab that previews posts. Maybe we can incorporate something so that people can see content purely based on the text to counteract biases.
 
@@ -22,7 +22,7 @@ Youtube music has a samples tab, which shows the user quick previews of new musi
 
 Checkmate is an app that makes users answer questions everyday to see how compatible users are to their friends. We can do a similar thing but invert the score to be how not compatible you are.
 
-![Screenshot of app Fable depicting a book club that reads books together](../assets/images/fable.PNG){:width="300"}
+![Screenshot of app Fable depicting a book club that reads books together](../assets/images/fable.png){:width="300"}
 
 Fable has book clubs that read and comment on books together. This can be extended to POV by having communities that complete tasks together.
 
@@ -30,7 +30,7 @@ Fable has book clubs that read and comment on books together. This can be extend
 
 Twitter/X has live talks called Spaces where pannels can be hosted in real time and have other people listening in. This would be good to have in POV for real time discussions. It could be used for debates or discussions with a larger group of people on opposing sides.
 
-![Screenshot of Youtube music where users can choose a radio of music depending on preferences](../assets/images/radio.PNG){:width="300"}
+![Screenshot of Youtube music where users can choose a radio of music depending on preferences](../assets/images/radio.png){:width="300"}
 
 Youtube music allows users to create radios, which generates a bunch of music based on criteria that users choose. This could be used to tailor content to a user's specifications.
 
@@ -87,7 +87,7 @@ Youtube music allows users to create radios, which generates a bunch of music ba
 
 ## Storyboard Sketches
 #### Rue is interested in the issues in Israel and Palestine, but doesn't know much about it.
-![Storyboard of Rue](../assets/images/storyboard1.PNG){:width="600"}
+![Storyboard of Rue](../assets/images/storyboard1.png){:width="600"}
 
 #### Eli doesn't have an extreme opinon on gun rights, so he's fed up of only seeing the extreme views on social media.
-![Storyboard of Eli](../assets/images/storyboard2.PNG){:width="600"}
+![Storyboard of Eli](../assets/images/storyboard2.png){:width="600"}
