@@ -318,10 +318,29 @@ sync filterResponsesToTopic(searchLabels: set Label, topic: Topic, out filteredR
 
 ## Design Tradeoffs
 
-- edit posts
-- filtering for children (unserious posts)
-- upvotes for topics?
-- show coments without clicking on it?
-- descriptions for topics?
-- show sides on samples tab?
-- titles?
+### Lock It Down
+Options:
+- Allow users to edit their responses after posting them
+- Don't allow users to edit their responses after they’re posted
+
+Rationale:
+
+I chose to lock responses once posted. While edits could fix misunderstandings or typos, they also risk misuse. Users might post a popular response, gain upvotes, and later change it to promote extreme views, undermining trust in the platform. Since transparency and accountability are core values for POV, preventing exploitation of the editing feature is crucial. Locking responses keeps the content consistent and reliable.
+
+### Keeping It Neutral
+Options:
+- Display the side (agree/disagree) on the responses on the Non-Biased Samples page
+- Don't display the side on the responses on the Non-Biased Samples page (still stripping away all other details like upvotes and the author)
+
+Rationale: 
+
+I chose not to display the sides on the Non-Biased Samples page. While showing the side can provide context, keeping it hidden lessens the amount of bias. If users know the side, they might favor posts that align with their existing views. By not revealing the stance, users are encouraged to focus on the content itself, promoting a more open discussion.
+
+### Popular Topics
+Options:
+- Allow people upvote and downvote topics
+- Don't allow people to upvote and downvote topics
+
+Rationale:
+
+I chose not to include upvotes for topics on POV. While upvoting could help surface popular topics, it might reinforce the echo chamber issue I’m trying to solve. This could result in popular topics dominating the platform, leaving less room for good discussions. POV aims to encourage a wide range of perspectives, not just the loudest ones. However, I still want to highlight popular topics at times because they can be more important or relevant to today's society. To do this, I’ll emphasize topics based on engagement, such as the number of responses.
