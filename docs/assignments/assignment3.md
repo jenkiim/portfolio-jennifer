@@ -8,7 +8,7 @@ layout: doc
 ## Pitch
 Introducing POV, a social media platform created for people tired of the echo chambers and polarization of social media today. POV is designed for those seeking meaningful conversations, diverse perspectives, and the opportunity to engage with differing viewpoints. Unlike traditional platforms that amplify extreme opinions, POV offers a space for balanced, thoughtful discussion without the overwhelming focus on popularity or virality.
 
-POV offers key features to enhance this experience. With the Viewpoint Spectrum, users can express their stance on a topic along a gradient, capturing more nuanced opinions beyond a simple agree/disagree. The Devil’s Advocate mode lets users briefly advocate for the opposing side in responses, encouraging them to explore perspectives beyond their own. Another standout feature, Non-Biased Samples, addresses the bias of popularity-driven content. It strips away information like the author and number of upvotes, offering random suggestions to ensure users aren’t just seeing the loudest or most extreme voices, but instead a variety of perspectives that might otherwise be suppressed by traditional algorithms.
+POV offers key features to enhance this experience. With the Viewpoint Spectrum, users can express their stance on a topic along a gradient, capturing more nuanced opinions beyond a simple agree/disagree. The Devil’s Advocate mode lets users briefly advocate for the opposing side in responses, encouraging them to explore perspectives beyond their own. Another feature, Non-Biased Samples, addresses the bias of popularity-driven content. It strips away information like the author and number of upvotes, offering random suggestions to ensure users aren’t just seeing the loudest or most extreme voices, but instead a variety of perspectives that might otherwise be suppressed by traditional algorithms.
 
 POV brings value by encouraging balanced discourse and helping users explore a wider range of viewpoints.
 
@@ -23,11 +23,13 @@ POV brings value by encouraging balanced discourse and helping users explore a w
 
 responses: set Response
 
+titles: responses -> one String
+
 responseTexts: responses -> one Text
 
 responseUsers: responses -> one User
 
-issueofResponse: responses -> one Issue
+issueOfResponse: responses -> one Issue
 
 votes: responses -> one Integer //*number of upvotes - downvotes*
 
@@ -42,8 +44,8 @@ tags: responses -> set Tag
 **actions:**
 
 ```
-respond(text: String, user: User, issue: Issue, side: Side, out response: Response)
-    make a new Response that corresponds to the text, the user who wrote the Response,
+respond(text: String, title: String, user: User, issue: Issue, side: Side, out response: Response)
+    make a new Response that corresponds to the title, text, the user who wrote the Response,
     the issue the response is for, and the side of the issue the response is arguing for.
     The default vote amount is 0.
 
@@ -59,8 +61,8 @@ subtractVote(response: Response, user: User)
 undoVote(response: Response, user: User)
     take away the user's vote to the specified response that the user undid their vote on
 
-respondToResponse(text: String, response: Response, user: User, tag: Tag, out responseToResponse: Response)
-    add a new response tagged with the given tag to the response that that the user was replying and
+respondToResponse(text: String, title: String, response: Response, user: User, tag: Tag, out responseToResponse: Response)
+    add a new response tagged with the given tag to the response that that the user was replying to and
     add this to the responsesToResponses. 
 
 addTag(response: Response, tag: Tag)
@@ -181,7 +183,7 @@ getSide(issue: Issue, user: User, out side: Side)
 
 **concept:** Labeling [Item]
 
-**purpose:** filtering for users to customize their feed at specific times to fit their moods and allows for limiting content that children can see. Some examples are trigger warnings, seriousness of topics, and whether the argument is based on personal experience or facts and stats.
+**purpose:** filtering for users to customize their feed at specific times to fit their moods and allows for limiting content that children can see. Some examples are devil's advocate mode, trigger warnings, seriousness of topics, and whether the argument is based on personal experience or facts and stats.
 
 **principle:** if label is added to item by a user and not removed, then filtering on label will display item. Labels can be suggested at any time.
 
@@ -231,10 +233,10 @@ unvote(item: Item, user: User)
 
 ### Synchronizations
 ```
-sync respondToTopic(text: String, session: Session, topic: Topic, out response: Response)
+sync respondToTopic(text: String, title: String, session: Session, topic: Topic, out response: Response)
     Sessioning.getUser(session, user)
     Sideing.getSide(user, topic, side)
-    Responding.respond(text, user, topic, side, response)
+    Responding.respond(text, title, user, topic, side, response)
 
 sync deleteResponse(session: Session, response: Response)
     Sessioning.getUser(session, user)
@@ -255,10 +257,10 @@ sync undoVoteResponse(response: Response, session: Session)
     Upvoting.unvote(response, user)
     Responding.undoVote(response, user)
 
-sync respondToResponse(text: String, session: Session, response: Response, out response: Response)
+sync respondToResponse(text: String, title: String, session: Session, response: Response, out response: Response)
     Labeling.tag(responseToResponse, "reply", label)
     Sessioning.getUser(session, user)
-    Responding.respondToResponse(text, response, user, label, responseToResponse)
+    Responding.respondToResponse(text, title, response, user, label, responseToResponse)
 
 sync labelResponse(response: Response, labelName: Text)
     Labeling.tag(response, labelName, label)
@@ -310,10 +312,16 @@ sync filterResponsesToTopic(searchLabels: set Label, topic: Topic, out filteredR
 
 ![Dependency diagram](./dependencydiagram.png){:width="600"}
 
-## Wireframes Link
+## Wireframes
+
+[Link to wireframes](https://www.figma.com/proto/q5hZSub478WvL2Hj6gvyAM/POV-Wireframe?node-id=0-1&t=bkTClT4u3RT3naMi-1)
 
 ## Design Tradeoffs
 
 - edit posts
 - filtering for children (unserious posts)
 - upvotes for topics?
+- show coments without clicking on it?
+- descriptions for topics?
+- show sides on samples tab?
+- titles?
