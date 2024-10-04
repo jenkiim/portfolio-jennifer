@@ -4,7 +4,7 @@ layout: doc
 ---
 
 # Assignment 4: Backend Design
-#### Collaboration Partners: Tiana Jiang, ChatGPT
+#### Collaboration Partners: Tiana Jiang
 ## Abstract Data Models
 **concept:** Responding [Author, Item]
 
@@ -129,7 +129,7 @@ app  **POV**
 
 [Link to deployed site](https://pov-mmo9bd0r3-jenkiims-projects.vercel.app)
 
-<!-- 
+
 - whether to have undecided separately on sideing concept
 - sideing concept -> 8 sides for each topic -> strongly disagree, disagree, slightly disagree, neutral, slightly agree, agree, strongly agree, undecided
     - including undecided
@@ -140,8 +140,9 @@ app  **POV**
 - upvoting topics?
 - responses have targets, not responsesToResponses
 - description for topics? editing for topics? deleting for topics?
+- nvmmmmm: need a get method for responses to responses for users? 
 
 - can only create tag when adding it to post? or just create tag?
 
 - data model diagram
-    - can i reuse item for the target in responding concept and in upvotiing concept![alt text](<Note Oct 2, 2024.png>) -->
+    - can i reuse item for the target in responding concept and in upvotiing concept![alt text](<Note Oct 2, 2024.png>)
