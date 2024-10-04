@@ -6,7 +6,7 @@ layout: doc
 # Assignment 4: Backend Design
 #### Collaboration Partners: Tiana Jiang, ChatGPT
 ## Abstract Data Models
-**concept:** Responding [Author, Target]
+**concept:** Responding [Author, Item]
 
 <!-- **purpose:** share opinions on text, which allows for discussions and learning of different perspectives
 
@@ -16,11 +16,13 @@ layout: doc
 
 responses: set Response
 
+title: responses -> one String
+
 content: responses -> one String
 
 author: responses -> one Author
 
-target: responses -> one Target
+target: responses -> one Item
 <!-- 
 **actions:**
 
@@ -74,11 +76,11 @@ user: active -> one User
 
 sides: set Side
 
-degreeOfSide: sides -> one OpinionDegree //*8 possible opinion degrees (strongly disagree, disagree, slightly disagree, neutral, slightly agree, agree, strongly agree, undecided) for every issue*
+degree: sides -> one OpinionDegree //*8 possible opinion degrees (strongly disagree, disagree, slightly disagree, neutral, slightly agree, agree, strongly agree, undecided) for every issue*
 
 issue: sides -> one Issue
 
-usersOfSide: sides -> set User
+users: sides -> set User
 
 ---
 
@@ -98,25 +100,25 @@ items: labels -> set Item
 
 **state:**
 
-upvotes, downvotes: Item -> set User  
+upvotes, downvotes: Item -> set User
 
 count: Item -> one Integer //*number of upvotes - downvotes*
 
 ### Data Model
 
-![Data Model](){:width="600"}
+![Data Model](./datamodel.png){:width="600"}
 
 #### App Definition
 app  **POV**
 - include Responding [Authenticating.User, Topicing.Topic] as RespondingToTopic
-- include Responding [Authenticating.User, Responding.Response] as RespondingToResponse
+- include Responding [Authenticating.User, RespondingToTopic.Response + RespondingToResponse.Response] as RespondingToResponse
 - include Topicing [Authenticating.User]
 - include Authenticating
 - include Sessioning-[Authenticating.User]
 - include Sideing [Topicing.Topic, Authenticating.User]
-- include Labeling [Responding.Response] as ResponseLabeling
+- include Labeling [RespondingToTopic.Response] as ResponseLabeling
 - include Labeling [Topicing.Topic] as TopicLabeling
-- include Upvoting [Responding.Response, Authenticating.User] as ResponseUpvoting
+- include Upvoting [RespondingToTopic.Response + RespondingToResponse.Response, Authenticating.User]
 <!-- - include Upvoting [Topicing.Topic, Authenticating.User] as TopicUpvoting -->
 
 ## Backend Code
@@ -127,10 +129,10 @@ app  **POV**
 
 [Link to deployed site](https://pov-mmo9bd0r3-jenkiims-projects.vercel.app)
 
-
+<!-- 
 - whether to have undecided separately on sideing concept
 - sideing concept -> 8 sides for each topic -> strongly disagree, disagree, slightly disagree, neutral, slightly agree, agree, strongly agree, undecided
-
+    - including undecided
 
 
 - response to topic
@@ -140,3 +142,6 @@ app  **POV**
 - description for topics? editing for topics? deleting for topics?
 
 - can only create tag when adding it to post? or just create tag?
+
+- data model diagram
+    - can i reuse item for the target in responding concept and in upvotiing concept![alt text](<Note Oct 2, 2024.png>) -->
