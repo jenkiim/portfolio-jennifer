@@ -127,7 +127,7 @@ app  **POV**
 
 ## Deployed Backend
 
-[Link to deployed site](https://pov-mmo9bd0r3-jenkiims-projects.vercel.app)
+[Link to deployed site](https://6104-backend.vercel.app)
 
 
 - whether to have undecided separately on sideing concept
