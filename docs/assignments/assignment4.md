@@ -23,9 +23,9 @@ content: responses -> one String
 author: responses -> one Author
 
 target: responses -> one Item
-<!-- 
-**actions:**
 
+<!-- **actions:** -->
+<!-- 
 ```
 createResponse(content: String, user: User, target: Target, out response: Response)
     make a new Response that corresponds to the title, text, the user who wrote the Response,
@@ -34,7 +34,7 @@ createResponse(content: String, user: User, target: Target, out response: Respon
 
 deleteResponse(user: User, response: Resonse)
     delete the specified response made by the User. The user must have been the author of response before this.
-``` -->
+```  -->
 
 ---
 
@@ -130,7 +130,7 @@ app  **POV**
 [Link to deployed site](https://6104-backend.vercel.app)
 
 
-- whether to have undecided separately on sideing concept
+<!-- - whether to have undecided separately on sideing concept
 - sideing concept -> 8 sides for each topic -> strongly disagree, disagree, slightly disagree, neutral, slightly agree, agree, strongly agree, undecided
     - including undecided
 
@@ -145,4 +145,4 @@ app  **POV**
 - can only create tag when adding it to post? or just create tag?
 
 - data model diagram
-    - can i reuse item for the target in responding concept and in upvotiing concept![alt text](<Note Oct 2, 2024.png>)
+    - can i reuse item for the target in responding concept and in upvotiing concept![alt text](<Note Oct 2, 2024.png>) -->
