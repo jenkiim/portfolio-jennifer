@@ -28,3 +28,6 @@ On a positive note, I want to highlight something great that Slack did: they now
 
 Overall, while Slack's redesign tried to make things simpler, some of the changes made it hard for people managing multiple workspaces. Merging notifications into one spot was meant to make things easier, but it actually added a bit of mental strain for users switching between tasks and channels. On the other hand, it's great that Slack listened to feedback and let users customize the sidebar again. Plus, their new color options for accessibility show that they prioritize making the app accessible for everyone.
 
+
+[Source for Pictures](https://www.techfinitive.com/slack-new-design-can-you-go-back/#google_vignette
+)
