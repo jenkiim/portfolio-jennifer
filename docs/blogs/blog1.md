@@ -1,5 +1,5 @@
 ---
-title: "Blog 1"
+title: "Blog 1: Slack Redesign Issues"
 layout: doc
 ---
 
