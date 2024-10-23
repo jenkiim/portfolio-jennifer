@@ -17,7 +17,7 @@ Once you search for a restaurant to review, you’re taken to the restaurant’s
 
 <div style="display: flex; justify-content: space-around;">
     <img src="./addreviewbeli.jpg" alt="Beli Restaurant Page" width="250" />
-    <img src="./reviewpagebeli.PNG" alt="Beli Review Page" width="250" />
+    <img src="./reviewpagebeli.png" alt="Beli Review Page" width="250" />
 </div>
 
 Another feature I really like is the ability to see all the top recommendations from my friends in my area. However, this feature isn’t advertised well. I actually stumbled across it by accident while exploring the app. There are multiple ways to access it, but the easiest way is super hidden. If you look at the screenshot below, the "Friend Recs" filter is on the far right, but you have to scroll across the banner to even see it. This confused me. Still, I don't think there isn't a super clear way on how to fix this. They could reduce the number of filters to make everything visible, shorten the descriptions (which might confuse users), or use a dropdown (which would require an extra click). Each of these options comes with trade-offs.
@@ -30,7 +30,7 @@ Another feature I really like is the ability to see all the top recommendations 
 Once you click on "Friend Recs," it becomes clearer that you’re now seeing your friends’ recommendations, as it's shown on the top tab. Additionally, each restaurant in this view has a dark circle with a number next to its rating, which represents how many of your friends have rated the restaurant. However, this isn’t immediately obvious, and there’s no clear indication that these ratings come specifically from my friends rather than all Beli users.
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="./friendrecbeli.PNG" alt="Beli Friend Rec Page" width="250" />
+    <img src="./friendrecbeli.png" alt="Beli Friend Rec Page" width="250" />
 </div>
 
 In conclusion, I really like Beli and use it for many things, but this cognitive walkthrough made me realize it has some odd design choices that could use improvement.
