@@ -26,7 +26,15 @@ layout: doc
 
 ## Visual Design Study
 
-<!-- ![Data Model](./datamodel.png){:width="600"} -->
+### Typography Study
+<div style="display: flex; justify-content: space-around;">
+    <img src="./visualdesign1.png" alt="Typography Study" width="800" />
+</div>
+
+### Color Study
+<div style="display: flex; justify-content: space-around;">
+    <img src="./visualdesign2.png" alt="Color Study" width="800" />
+</div>
 
 ## Frontend Code
 
@@ -34,7 +42,7 @@ layout: doc
 
 ## Deployed Frontend
 
-[Link to deployed site](https://pov-2655im1n8-jenkiims-projects.vercel.app)
+[Link to deployed site](https://pov-jenkiims-projects.vercel.app/)
 
 ## Collaboration Statement
 
