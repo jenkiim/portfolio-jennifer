@@ -4,7 +4,7 @@ layout: doc
 ---
 
 # Assignment 6: User Testing
-#### Collaboration Partners: Tiana Jiang, 
+#### Collaboration Partners: Tiana Jiang, ChatGPT
 
 ## Prepopulated Data
 
