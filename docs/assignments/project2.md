@@ -1,5 +1,5 @@
 ---
-title: P2 Divergent Design
+title: "Project 2: Divergent Design"
 layout: doc
 ---
 
