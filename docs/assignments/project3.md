@@ -1,5 +1,5 @@
 ---
-title: P3 Convergent Design
+title: "Project 3: Convergent Design"
 layout: doc
 ---
 
